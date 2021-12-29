@@ -174,3 +174,8 @@ input[type=text], select, textarea {
     height: 30px;
   }
 
+text1 {
+    font-family: NH;
+    text-align: center;
+    font-size:20px;
+}
