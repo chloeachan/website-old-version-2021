@@ -1,11 +1,12 @@
 @font-face {
     font-family: 'G';
-    /* src: url('Rosalia.otf'); */
+    /* src: url('Rosalia.otf'); 
+    src: url('wakile.otf'); */
     src: url('/Gyahegi.otf'); 
 }
 @font-face {
     font-family: 'W';
-    src: url('wakile.otf');; 
+    src: url('chloe-font-v1.ttf');
 }
 
 @font-face {
