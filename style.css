@@ -170,3 +170,22 @@ input[type=text], select, textarea {
     text-align: center;
     font-size:25px;
 }
+
+.cont {
+    margin:auto;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    float:left;
+    grid-gap: 20px;
+}
+.gallery {
+    position: relative; 
+}
+
+.gallery img {
+    height: 100%;
+    width: 100%;
+}
+.text {
+    font-family: C;
+}
