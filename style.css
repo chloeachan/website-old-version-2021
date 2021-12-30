@@ -21,6 +21,7 @@ a {
     padding-right:10px;
     color: black;
     text-decoration: none;
+    font-family: C, Arial;
   }
 
 /* Change the link color to #111 (black) on hover */
@@ -275,32 +276,124 @@ p {
 }
 
 .slide {
-    margin-left: 30px;
-    margin-right: 30px;
+    position: absolute;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .image {
-    height: 50%;
-    width: 50%;
+    height: 70%;
+    width: 70%;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    position: relative;
 }
 
 .image1 {
-    height: 25%;
-    width: 25%;
-    margin-bottom: 50px;
+    height: 75%;
+    width: 29%;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    position: relative;
 }
 
 .head3 {
     font-family: C;
+    color: white;
     font-size: 60px;
     text-align: center; 
     margin-bottom: 5px;
 }
+
+.slides .slide {
+    position: absolute;
+    width: 100%;
+    height:100%;
+}
+
+.slides {
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 0;
+    padding-bottom: 40%;
+}
+
+#i1, #i2, #i3, #i4, #i5 {
+    display: none;
+}
+
+.pre, .nxt {
+    width: 48px;
+    height: 48px;
+    border-color: white;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    cursor: pointer;
+    z-index: 99;
+
+}
+.pre {
+   color: white;
+   border-bottom: 6px solid;
+   border-left: 6px solid;
+   transform: rotate(45deg);
+   left: 30px;
+}
+   
+.nxt {
+   color: white;
+   border-bottom: 6px solid;
+   border-left: 6px solid;
+   transform: rotate(-135deg);
+   right: 30px;
+}
+
+.nav {
+    width: 100%;
+    height: 20px;
+    bottom: 12%;
+    position: absolute; 
+    text-align: center;
+    z-index: 99;
+
+}
+
+.dots {
+
+    top: -5px;
+    width: 100%;
+    height: 100%;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+}
+.slide {
+    z-index: -1;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four,
+#i5:checked ~ #five {
+    z-index: 9;
+}
+
+#i1:checked ~ .nav #dot1,
+#i2:checked ~ .nav #dot2,
+#i3:checked ~ .nav #dot3,
+#i4:checked ~ .nav #dot4,
+#i5:checked ~ .nav #dot5 {
+    background: #fff;
+}
+
