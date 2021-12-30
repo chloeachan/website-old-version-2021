@@ -405,3 +405,8 @@ p {
     background: rgba(255,255,255,1);
 }
 
+.image1 {
+    height: 350px;
+    width: auto;
+}
+
