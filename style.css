@@ -228,8 +228,9 @@ p {
 .cont4 {
     margin-left:10px;
     margin-right:10px;
-    display: grid;
+    display: table;
     grid-template-columns:repeat(4,1fr);
     float:left;
     grid-gap: 20px;
 }
+
