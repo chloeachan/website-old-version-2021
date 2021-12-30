@@ -48,8 +48,10 @@ h1 {
     font-family: C, Arial;
     font-size: 60px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     display: inline;
+    margin-bottom: 0px;
+    line-height: 60px;
 }
 .d2 {
     text-align: center;
@@ -188,4 +190,31 @@ input[type=text], select, textarea {
 }
 .text {
     font-family: C;
+    font-size: 25px;
+    text-align:center;
+}
+
+.cont2 {
+    margin:auto;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    float:left;
+    grid-gap: 20px;
+}
+
+.text1 {
+    font-family: C;
+    font-size: 25px;
+    margin-top: -2px;
+
+}
+
+.text2 {
+        font-family: C, Arial;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 20px;
+        display: inline;
+        margin-bottom: 0px;
+        line-height: 25px;
 }
