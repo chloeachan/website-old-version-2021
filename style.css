@@ -225,3 +225,11 @@ p {
         margin-bottom: 0px;
         line-height: 25px;
 }
+.cont4 {
+    margin-left:10px;
+    margin-right:10px;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    float:left;
+    grid-gap: 20px;
+}
