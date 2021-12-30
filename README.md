@@ -1,2 +1,2 @@
 # website
- Chloe's Personal Website
+ Welcome to Chloe Abadi Chan's Personal Website!
