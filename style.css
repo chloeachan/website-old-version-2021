@@ -108,8 +108,6 @@ a {
     }
 
 }
-/* TOP HERE IS DONE */
-/* Change the link color to #111 (black) on hover */
 
 .d1, .d10 {
     position: relative;
@@ -294,6 +292,17 @@ input[type=text], select, textarea {
     .overlay1, .overlay2 {
         opacity: 0.6;
     }
+}
+
+@media (max-width: 800px) {
+    .cont, .cont2, .cont3, .cont4, .cont_new {
+        column-count: 1;
+        padding: 20px;
+    }
+/*     .cont4 {
+        column-count: 1;
+        padding: 20px;
+    } */
 }
 
 .l:hover {
