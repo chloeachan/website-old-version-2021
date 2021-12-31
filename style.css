@@ -2,6 +2,10 @@
     font-family: 'C';
     src: url('c00.ttf');
 }
+@font-face {
+    font-family: 'CT';
+    src: url('ct.ttf');
+}
 
 body {
     margin: 0;
@@ -64,7 +68,7 @@ body {
 header {
     text-align: center;
     font-size: 30px;
-    font-family: C, Arial;
+    font-family: CT, Arial;
     margin-top: 0px; 
 }
 
