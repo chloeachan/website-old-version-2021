@@ -290,6 +290,9 @@ input[type=text], select, textarea {
     .overlay1, .overlay2 {
         opacity: 0.6;
     }
+    .cont, .cont2, .cont3 {
+        grid-template-columns:repeat(1,1fr);
+    }
 }
 
 
@@ -390,7 +393,6 @@ p {
     font-size:20px;
 }
 
-
 .cont {
     margin:auto;
     display: grid;
@@ -398,6 +400,7 @@ p {
     float:left;
     grid-gap: 20px;
 }
+
 .gallery {
     position: relative; 
 }
