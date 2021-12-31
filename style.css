@@ -286,6 +286,10 @@ input[type=text], select, textarea {
     font-size:25px;
 }
 
+@media only screen and (max-width: 480px) {
+    .overlay1, .overlay2 {
+        opacity: 0.6;
+    }
 
 
 
