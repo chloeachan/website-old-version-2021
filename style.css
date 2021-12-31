@@ -290,6 +290,7 @@ input[type=text], select, textarea {
     .overlay1, .overlay2 {
         opacity: 0.6;
     }
+}
 
 
 
@@ -629,5 +630,3 @@ p {
     width: 100%;
     margin-bottom: 10px;
 }
-
-
