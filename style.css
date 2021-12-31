@@ -7,6 +7,14 @@
     src: url('ct.ttf');
 }
 
+.head1 {
+    font-family: CT, Arial;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    display: inline;
+    margin-bottom: 0px;
+}
 body {
     margin: 0;
     padding: 0;
