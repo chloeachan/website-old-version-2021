@@ -87,7 +87,7 @@ a {
     }
     .nav-links {
     width: 100%;
-    background-color: #bfceef;
+    background-color: #bbd1b0;
     }
     .navbar {
     flex-direction: column;
@@ -104,6 +104,7 @@ a {
     }
 
     .nav-links li a {
+        color:black;
         padding: 0.5rem 1rem;
     }
 
