@@ -24,6 +24,20 @@ body {
     margin-left:2rem; 
     margin-top:1rem;
 }
+.smile1 {
+    margin-bottom: 20px;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
+.footer {
+    font-family: C;
+    display: block;
+    text-align: center;
+    font-family: W;
+    line-height: 20px;
+    background: white;
+  }
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -235,18 +249,6 @@ a {
     font-family: C;
     text-align: center; 
 }
-
-.footer {
-    font-family: C;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-family: W;
-    line-height: 20px;
-    background: white;
-    padding: 5px;
-  }
 
 .head {
     font-family: CT, Arial;
