@@ -228,12 +228,11 @@ a {
 
 .head {
     font-family: C, Arial;
-    font-size: 35px;
+    font-size: 5vw;
     text-align: center;
     margin-top: 20px;
     display: inline;
     margin-bottom: 0px;
-    line-height: 40px;
 }
 
 /* Style inputs with type="text", select elements and textareas */
