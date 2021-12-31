@@ -2,9 +2,7 @@
     font-family: 'C';
     src: url('Chloe_font_med_old-Regular.ttf');
 }
-* {
-    box-sizing:border-box;
-}
+
 body {
     margin: 0;
     padding: 0;
@@ -14,6 +12,8 @@ body {
     display:inline;
     text-align: center;
     margin: .5rem;
+    width: 100%;
+    height: auto;
 }
 
 .smile {
@@ -106,26 +106,19 @@ a {
     .nav-links.active {
         display: flex;
     }
-    .title {
-        text-align: center;
-        margin-left:0rem;
-    }
     .top1 {
-        font-family: C;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        font-family: W;
-        line-height: 20px;
-        background: white;
+        text-align:end;
+        margin: .5rem;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
     }
+    
     .smile {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left:0.5rem; 
+    }
+    .title {
+        font-family: C;
+        font-size: 2rem;
+        margin-left:0.5rem;
     }
 
 }
