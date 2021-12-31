@@ -294,12 +294,19 @@ input[type=text], select, textarea {
     .overlay1, .overlay2 {
         opacity: 0.6;
     }
-    .cont, .cont2, .cont3 {
-        grid-template-columns:repeat(1,1fr);
-    }
 }
 
+.l:hover {
+    background-color: #FAE5B3;
+}
 
+.cont2 {
+    margin:auto;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    float:left;
+    grid-gap: 20px;
+}
 
 
 
@@ -417,13 +424,7 @@ p {
     text-align:center;
 }
 
-.cont2 {
-    margin:auto;
-    display: grid;
-    grid-template-columns:repeat(2,1fr);
-    float:left;
-    grid-gap: 20px;
-}
+
 
 .text1 {
     font-family: C;
