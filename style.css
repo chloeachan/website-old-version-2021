@@ -140,7 +140,7 @@ a {
     text-align: center;
 }
 
-.cont4, .cont_new {
+.cont4, .cont_new, .cont_new1 {
     margin-left:5px;
     margin-right:5px;
     margin: 0 auto;
@@ -150,6 +150,10 @@ a {
 
 .cont_new {
     column-count: 2;
+}
+.cont_new1 {
+    column-count: 1;
+    padding: 50px;
 }
 
 .gallery2 {
@@ -165,7 +169,7 @@ a {
     box-sizing: border-box;
 }
 
-.gallery2:hover .overlay {
+.gallery2:hover .overlay{
     opacity: 0.8;
     font-size: 25px;
 }
@@ -294,9 +298,6 @@ input[type=text], select, textarea {
         grid-template-columns:repeat(1,1fr);
     }
 }
-
-
-
 
 
 
