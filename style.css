@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'C';
-    src: url('c00.ttf');
+    src: url('chloe_font.ttf');
 }
 @font-face {
     font-family: 'CT';
-    src: url('ct.ttf');
+    src: url('chloe_font0.ttf');
 }
 
 .head1 {
