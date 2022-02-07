@@ -114,7 +114,7 @@ a {
     }
     .nav-links {
     width: 100%;
-    /* background-color: #bbd1b0; */ 
+    background-color: #bbd1b0; 
     }
     .navbar {
     flex-direction: column;
