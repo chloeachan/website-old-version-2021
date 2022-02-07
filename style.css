@@ -102,7 +102,7 @@ a {
     font-family: C, Arial;
   }
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
     
     .checkbtn {
         display: block;
