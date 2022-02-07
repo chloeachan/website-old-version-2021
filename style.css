@@ -1,3 +1,4 @@
+/* fonts */ 
 @font-face {
     font-family: 'C';
     src: url('chloe_font.ttf');
@@ -7,6 +8,12 @@
     src: url('chloe_font0.ttf');
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
 .head1 {
     font-family: CT, Arial;
     font-size: 40px;
@@ -15,10 +22,8 @@
     display: inline;
     margin-bottom: 0px;
 }
-body {
-    margin: 0;
-    padding: 0;
-}
+*/ 
+
 
 .top1 {
     display:inline;
@@ -102,7 +107,7 @@ a {
     font-family: C, Arial;
   }
 
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
     
     .checkbtn {
         display: block;
