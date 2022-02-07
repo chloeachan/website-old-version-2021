@@ -114,7 +114,7 @@ a {
     }
     .nav-links {
     width: 100%;
-    background-color: #bbd1b0;
+    /* background-color: #bbd1b0; */ 
     }
     .navbar {
     flex-direction: column;
@@ -324,7 +324,7 @@ input[type=text], select, textarea {
     font-size:25px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1200px) {
     .overlay1, .overlay2 {
         opacity: 0.6;
     }
