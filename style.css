@@ -11,19 +11,7 @@
 body {
     margin: 0;
     padding: 0;
-}
-
-/* 
-.head1 {
-    font-family: CT, Arial;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 20px;
-    display: inline;
-    margin-bottom: 0px;
-}
-*/ 
-
+} 
 
 .top1 {
     display:inline;
@@ -116,6 +104,7 @@ a {
     width: 100%;
     background-color: #bbd1b0; 
     }
+
     .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -294,6 +283,7 @@ input[type=text], select, textarea {
     cursor: pointer;
     font-family: C, Arial;
     text-align: center;
+    background-color: rgb(226, 226, 226);
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
